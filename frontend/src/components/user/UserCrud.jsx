@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Main from '../template/Main'
+import '../template/Main.css'
 
 const headerProps = {
     icon: 'users',
-    title: 'Usuários',
+    title: ' Usuários',
     subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir!'
 }
 
